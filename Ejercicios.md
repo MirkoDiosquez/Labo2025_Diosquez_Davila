@@ -2,7 +2,7 @@ Ejercicios
 Acá se subirán todos los ejercicios correspondientes a las unidades del Laboratorio de Programación Orientado a Objetos 2025.
 
 Repaso estructuras en C++
-Crear la estructura Empleado que tiene un nombre, apellido, fecha de nacimiento, sexo y salario.
+1- Crear la estructura Empleado que tiene un nombre, apellido, fecha de nacimiento, sexo y salario.
 
 Se pide la función empleadoConMayorSueldo que recibe por parámetro un vector con todos los empleados de la empresa y otro vector vacío donde se guardarán los empleados que tienen salario menor o igual a $400.000.
 
@@ -10,7 +10,7 @@ La función deberá recorrer todos los empleados de la empresa y retornar el de 
 
 Por lo tanto, luego de llamar a la función, se quiere mostrar en el main el empleado con mayor sueldo y mostrar el nombre y apellido de todos los empleados con salario menor o igual a $400.000.
 
-Se quieren almacenar los productos de un supermercado. De estos interesa conocer el nombre, código de barra, marca, precio y si tiene fecha de vencimiento o no.
+2- Se quieren almacenar los productos de un supermercado. De estos interesa conocer el nombre, código de barra, marca, precio y si tiene fecha de vencimiento o no.
 
 Los pasillos del supermercado están compuestos por góndolas de 3 filas y 4 columnas. Ingresar tantos productos como sea necesario para llenar un pasillo y determinar:
 
@@ -22,7 +22,7 @@ Promedio de precios de todo ese pasillo.
 
 Cantidad de productos con fecha de vencimiento.
 
-Se quiere hacer un sistema de gestión de pedidos de un Restaurante. Cada pedido tiene un número de pedido, el nombre del cliente, una lista de productos, cantidades y precios. El sistema debe permitir:
+3- Se quiere hacer un sistema de gestión de pedidos de un Restaurante. Cada pedido tiene un número de pedido, el nombre del cliente, una lista de productos, cantidades y precios. El sistema debe permitir:
 Agregar un nuevo pedido con sus productos.
 
 Cancelar un pedido buscando por el número de pedido.
@@ -31,7 +31,7 @@ Mostrar todos los pedidos en curso con el total de cada uno.
 
 Calcular el ingreso total del día sumando los totales de todos los pedidos completados.
 
-Se quiere hacer un sistema de gestión de pacientes en una clínica. Cada paciente tiene los siguientes datos: nombre, edad, número de historia clínica, y fecha de próxima cita (día, mes y año como una estructura de tipo Fecha). El sistema debe permitir:
+4- Se quiere hacer un sistema de gestión de pacientes en una clínica. Cada paciente tiene los siguientes datos: nombre, edad, número de historia clínica, y fecha de próxima cita (día, mes y año como una estructura de tipo Fecha). El sistema debe permitir:
 Registrar nuevos pacientes y asignarles una fecha de cita.
 
 Cancelar una cita buscando al paciente por número de historia clínica.
@@ -40,7 +40,7 @@ Mostrar todas las citas programadas para un día específico.
 
 Buscar y mostrar información de un paciente usando su número de historia clínica.
 
-Realizar un sistema para la gestión de un McDonald’s. El sistema cuenta con un menú de 20 productos diferentes, cada uno esta conformado por: Un nombre, si tiene promoción o no, cantidad de ventas, el precio y la categoría a la que pertenece (Hamburguesa, Bebida, Postre, etc.). Ademas, cada pedido realizado debe registrar los siguientes datos: El nombre del cliente, productos pedidos, cantidad de cada producto, la fecha que se pidió y el precio total.
+5- Realizar un sistema para la gestión de un McDonald’s. El sistema cuenta con un menú de 20 productos diferentes, cada uno esta conformado por: Un nombre, si tiene promoción o no, cantidad de ventas, el precio y la categoría a la que pertenece (Hamburguesa, Bebida, Postre, etc.). Ademas, cada pedido realizado debe registrar los siguientes datos: El nombre del cliente, productos pedidos, cantidad de cada producto, la fecha que se pidió y el precio total.
 
 Requerimientos:
 Se deberá implementar al menos 2 estructuras y 4 funciones.
@@ -53,7 +53,7 @@ El usuario deberá poder consultar un pedido específico por el nombre del clien
 
 El sistema deberá mostrar por pantalla los productos ordenados por ventas de mayor a menor.
 
-Realizar un sistema para la organización de un torneo de futbol. El torneo está compuesto por 24 equipos, cada uno está conformado por: un nombre, 11 jugadores (1 jugador es el arquero), la cantidad de goles a favor y en contra, la posición en el torneo (Determinada por los resultados de los partidos: Las Victorias suman : +3, los Empates suman: +1 y las Derrotas suman: +0) y el historial de partidos (Se guardará en formato: V, E, D).
+6- Realizar un sistema para la organización de un torneo de futbol. El torneo está compuesto por 24 equipos, cada uno está conformado por: un nombre, 11 jugadores (1 jugador es el arquero), la cantidad de goles a favor y en contra, la posición en el torneo (Determinada por los resultados de los partidos: Las Victorias suman : +3, los Empates suman: +1 y las Derrotas suman: +0) y el historial de partidos (Se guardará en formato: V, E, D).
 
 Ademas, cada partido debe registrar los siguientes datos: El nombre de los equipos (Local y Visitante), cantidad de goles anotados por cada equipo, la fecha y el estadio donde se disputó.
 
@@ -68,7 +68,7 @@ El usuario deberá poder mostrar por pantalla, la información de un partido esp
 
 El usuario deberá poder mostrar la tabla de posiciones del torneo, ordenada de mayor a menor según la puntuación. En caso de empate en la puntuación, el desempate se realizara en base a la Cantidad de goles a favor (De mayor a menor). La tabla debe mortrar: Posición - Nombre del equipo - Cantidad de goles a favor - Cantidad de goles en contra - Historial de partidos.
 
-Realizar un sistema para la organización de carreras de Formula 1. En total se corren 24 carreras por año y están compuestas por 10 equipos, cada uno esta conformado por 2 pilotos (Por lo que serán 20 pilotos en total), se deberá hacer un sistema para determinar el equipo ganador anual de Formula 1.
+7- Realizar un sistema para la organización de carreras de Formula 1. En total se corren 24 carreras por año y están compuestas por 10 equipos, cada uno esta conformado por 2 pilotos (Por lo que serán 20 pilotos en total), se deberá hacer un sistema para determinar el equipo ganador anual de Formula 1.
 
 #### Estructuras:
 

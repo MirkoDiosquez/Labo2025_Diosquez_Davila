@@ -86,20 +86,39 @@ void mostrarHistoria(const vector<Paciente> &pacientes) {
 
 int main() {
     vector<Paciente> pacientes;
-    string opcion;
+    int opcion;
+    
+    while (opcion != 5) 
+    {
     cout << "Quieres ingresar Pacientes - 1" << endl
          << "Quieres cancelar Pacientes - 2" << endl
          << "Quieres mostrar pacientes por dia - 3" << endl
          << "Quieres mostrar pacientes por numero de historia - 4" << endl;
     cin >> opcion;
-    if (opcion == "1") {
+    switch (opcion)
+    {
+    case 1:
         ingresar(pacientes);
-    } else if (opcion == "2") {
+        break;
+    
+    case 2:
         cancelar(pacientes);
-    } else if (opcion == "3") {
+        break;
+    
+    case 3:
         mostrarDia(pacientes);
-    } else if (opcion == "4") {
+        break;
+    
+    case 4:
         mostrarHistoria(pacientes);
+        break;
+
+        case 5:
+        return 0;
+    default:
+        break;
+    }
     }
     return 0;
+
 }
