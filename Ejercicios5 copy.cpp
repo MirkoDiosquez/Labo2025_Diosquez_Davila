@@ -1,101 +1,109 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-struct Producto{
+
+struct Producto {
     string nombre;
     bool promocion;
     int cantVentas;
     int precio;
-    string categoria ;
+    string categoria;
 };
+
 struct fecha_t {
     int dia;
     int mes;
     int anio;
 };
-struct Pedido{
+
+struct Pedido {
     string nombre;
-    Producto productos;
+    vector<Producto> productos;
     int cantidad;
     int precio;
     fecha_t fecha;
-
 };
-void insertar(vector<Producto> &productos){
+
+void insertar(vector<Producto> &productos) {
     Producto producto;
     int n = 0;
     cout << "1 para insertar datos o 2 para salir: ";
     cin >> n;
     while (n == 1) {
-        cout << "Ingrese nombre del producto: "<<endl;
+        cout << "Ingrese nombre del producto: " << endl;
         cin >> producto.nombre;
-        cout << "Ingrese el precio del producto "<<endl;
+        cout << "Ingrese el precio del producto: " << endl;
         cin >> producto.precio;
-        cout << "Ingrese si esta en promocion 0 para no/1 para si : "<<endl;
+        cout << "Ingrese si esta en promocion 0 para no/1 para si: " << endl;
         cin >> producto.promocion;
-        if(producto.promocion == true){
-            producto.precio = producto.precio-(producto.precio * 0.2);
+        if (producto.promocion) {
+            producto.precio = producto.precio - (producto.precio * 0.2);
         }
-       
-        cout << "Ingrese la categoria del producto: "<<endl;
+        cout << "Ingrese la categoria del producto: " << endl;
         cin >> producto.categoria;
-        cout<< "El precio del producto es: "<<producto.precio<<endl;
+        producto.cantVentas = 0; // Inicializar cantidad de ventas
         productos.push_back(producto);
-        cout << "1 para insertar datos o 2 para salir: "<<endl;
+        cout << "1 para insertar datos o 2 para salir: " << endl;
         cin >> n;
         cin.ignore();
     }
 }
-void realizarPedido(vector<Pedido> &pedidos, vector<Producto> &productos){
+
+void realizarPedido(vector<Pedido> &pedidos, vector<Producto> &productos) {
     Pedido pedido;
-    Producto producto;
-    int n=0;
-    int cantidad = 0;
-    int total = 0;
-    cout << "1 para insertar datos o 2 para salir: "<<endl;
+    int n = 0;
+    cout << "1 para insertar datos o 2 para salir: " << endl;
     cin >> n;
-    
-    while(n==1){
-        cout << "Ingrese nombre del cliente: "<<endl;
+
+    while (n == 1) {
+        cout << "Ingrese nombre del cliente: " << endl;
         cin >> pedido.nombre;
-        cout<< "Dime la cantidad de productos que deseas comprar: "<<endl;
+        cout << "Dime la cantidad de productos que deseas comprar: " << endl;
         cin >> pedido.cantidad;
+        pedido.productos.clear();
+        int total = 0;
+
         for (int i = 0; i < pedido.cantidad; i++) {
             Producto producto;
             cout << "Ingrese nombre del producto: " << endl;
             cin >> producto.nombre;
-            
+            bool encontrado = false;
 
             for (int j = 0; j < productos.size(); j++) {
                 if (producto.nombre == productos[j].nombre) {
-                    pedido.productos.nombre = productos[j].nombre;
-                    pedido.precio =+ productos[j].precio;
-                    pedido.productos.categoria = productos[j].categoria;
-                    pedido.productos.promocion = productos[j].promocion;
+                    producto.precio = productos[j].precio;
+                    producto.categoria = productos[j].categoria;
+                    producto.promocion = productos[j].promocion;
                     productos[j].cantVentas++;
-                    pedido.productos.cantVentas = productos[j].cantVentas;
-                    
-                    
+                    encontrado = true;
+                    break;
                 }
             }
 
+            if (encontrado) {
+                pedido.productos.push_back(producto);
+                total += producto.precio;
+            } else {
+                cout << "Producto no encontrado." << endl;
+            }
         }
-        
-        cout << "Ingrese dia de la fecha: "<< endl;
-        cin >> pedido.fecha.dia; 
-        cout << "Ingrese mes de la fecha: "<< endl;
-        cin >> pedido.fecha.mes; 
-        cout << "Ingrese anio de la fecha: "<< endl;
-        cin >> pedido.fecha.anio; 
-        pedidos.push_back(pedido);
+
+        pedido.precio = total;
+        cout << "Ingrese dia de la fecha: " << endl;
+        cin >> pedido.fecha.dia;
+        cout << "Ingrese mes de la fecha: " << endl;
+        cin >> pedido.fecha.mes;
+        cout << "Ingrese anio de la fecha: " << endl;
+        cin >> pedido.fecha.anio;
         cout << "El total de la compra es: " << pedido.precio << endl;
 
-        
+        pedidos.push_back(pedido);
         cout << "1 para insertar datos o 2 para salir: " << endl;
         cin >> n;
         cin.ignore();
+    }
 }
-}
+
 void pedidoCliente(vector<Pedido> &pedidos) {
     string nombre;
     cout << "Dime el nombre del cliente: ";
@@ -114,30 +122,27 @@ void pedidoCliente(vector<Pedido> &pedidos) {
         }
     }
 }
-void ordenarMayorVentas(vector<Producto> &productos){
-    Producto aux;
-    for (int i = 0; i < productos.size(); i++)
-    {
-        for (int j = 0; j < productos.size(); j++)
-        {
-            if(productos[i].cantVentas > productos[j].cantVentas){
-                aux = productos[i];
-                productos[i] = productos[j];
-                productos[j] = aux;
-                
-            }
-        }
-    }
-   
-}
-void imprimir(vector <Producto> productos){
-    for (int i = 0; i < productos.size(); i++)
-    {
+void imprimir(vector<Producto> productos) {
+    for (int i = 0; i < productos.size(); i++) {
         cout << "Nombre del producto: " << productos[i].nombre << endl;
         cout << "Cantidad de ventas: " << productos[i].cantVentas << endl;
         cout << "Categoria: " << productos[i].categoria << endl;
-        
-}}
+    }
+}
+
+void ordenarMayorVentas(vector<Producto> &productos) {
+    Producto aux;
+    for (int i = 0; i < productos.size(); i++) {
+        for (int j = i + 1; j < productos.size(); j++) {
+            if (productos[i].cantVentas < productos[j].cantVentas) {
+                aux = productos[i];
+                productos[i] = productos[j];
+                productos[j] = aux;
+            }
+        }
+    }
+    
+}
 
 
 int main() {
