@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-const int cant_pilotos = 20 ;
+int cant_pilotos = 20 ;
 
 struct piloto_t 
 {
