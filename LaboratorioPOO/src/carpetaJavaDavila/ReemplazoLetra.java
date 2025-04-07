@@ -6,9 +6,6 @@ public class ReemplazoLetra {
         System.out.println("Dime una letra");
         char letra = e.next().charAt(0);
         String palabra = "Ayer me compré muñecos de la marca ‘ToyCo’ por internet.";
-        for (int i = 0; i < palabra.length(); i++) {
-            if (palabra.charAt(i)== 'e'){
-                palabra.setcharAt(i, letra);
-        }
-    }
-}}
+        System.out.println("La palabra modificada es"+ palabra.replace('e', letra));
+}
+}
