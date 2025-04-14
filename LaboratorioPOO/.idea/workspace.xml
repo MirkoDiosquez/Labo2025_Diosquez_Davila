@@ -5,38 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/LaboratorioPOO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/src/DivisibleFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/src/IngresoDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/src/NumeroMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercicio1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercicio1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercicio2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercicio2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercicio3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercicio3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercicio4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercicio4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercicio7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercicio7.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/Ejercico5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/Ejercico5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Davila/ejercicio6Noterminado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Davila/ejercicio6Noterminado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio7.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercico5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercico5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercicio7.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercico5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/Ejercico5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/ejercicio6Noterminado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LaboratorioPOO-Diosquez/C++/ejercicio6Noterminado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio6Noterminado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6Noterminado.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unidad_1/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unidad_1/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseCoche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Coche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +38,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging ramaTiago",
+    "git-widget-placeholder": "ramaTiago",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez",
     "onboarding.tips.debug.path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java"
@@ -89,6 +65,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Unidad_1/Fecha.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

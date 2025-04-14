@@ -1,12 +1,12 @@
 package Unidad_1;
 
-public class ClaseCirculo {
+public class Circulo {
     private double radio;
 
-    public ClaseCirculo() {
+    public Circulo() {
         this.radio=2;
     }
-    public ClaseCirculo(double radio){
+    public Circulo(double radio){
         this.radio=radio;
     }
     public double getRadio(){
@@ -15,11 +15,11 @@ public class ClaseCirculo {
     public void setRadio(double radio){
         this.radio=radio;
     }
-    public double obtenerArea(double radio) {
+    public double obtenerArea() {
         double area = Math.PI * (radio * radio);
     return area;
     }
-    public double obtenerPerimetro(double radio){
+    public double obtenerPerimetro(){
         double perimetro= radio * Math.PI * 2;
         return perimetro;
     }

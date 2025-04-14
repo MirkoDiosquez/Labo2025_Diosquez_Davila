@@ -1,13 +1,15 @@
 package Unidad_1;
 
-public class ClaseCoche {
+public class Coche {
     private String modelo;
     private String marca;
     private String color;
-    public ClaseCoche(String modelo, String marca, String color ){
+    private double velocidad;
+    public Coche(String modelo, String marca, String color, double velocidad){
         this.color=color;
         this.marca=marca;
         this.modelo=modelo;
+        this.velocidad=velocidad;
     }
 
     public String getColor() {
@@ -22,6 +24,10 @@ public class ClaseCoche {
         return modelo;
     }
 
+    public double getVelocidad() {
+        return velocidad;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }
@@ -34,4 +40,19 @@ public class ClaseCoche {
         this.modelo = modelo;
     }
 
+    public void setVelocidad(double velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public void  acelerar(double velocidad){
+        this.velocidad=velocidad+20;
+
+    }
+    public void  frenar(){
+        this.velocidad=0;
+
+    }
+    public double  mostrarVelocidadACT(){
+        return this.velocidad;
+    }
 }
