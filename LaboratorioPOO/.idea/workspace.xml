@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Unidad_1/Fecha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unidad_1/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseCirculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseCoche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_1/ClaseRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
