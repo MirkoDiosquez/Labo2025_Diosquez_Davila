@@ -40,6 +40,39 @@ public class Main {
         if (fecha.menorQue(otraFecha)){
             System.out.println("La primera fecha es menor");
         }
+        /*
+                Libro libro1 = new Libro(
+                        "Cien años de soledad",
+                        new Persona("Gabriel", "García Márquez"),
+                        "978-0307474728",
+                        417,
+                        "Editorial Sudamericana",
+                        new Fecha(5, 6, 1967)
+                );
 
-    }
-}
+                Libro libro2 = new Libro(
+                        "1984",
+                        new Persona("George", "Orwell"),
+                        "978-0451524935",
+                        328,
+                        "Secker & Warburg",
+                        new Fecha(8, 6, 1949)
+                );
+
+                Libro libro3 = new Libro(
+                        "El Principito",
+                        new Persona("Antoine", 11),
+                        "978-0156013987",
+                        96,
+                        "Reynal & Hitchcock",
+                        new Fecha(6, 4, 1943)
+                );
+            }
+            Cafetera cafetera = new Cafetera(
+                    10,
+                    850,
+                    0
+
+            );
+*/
+}}
