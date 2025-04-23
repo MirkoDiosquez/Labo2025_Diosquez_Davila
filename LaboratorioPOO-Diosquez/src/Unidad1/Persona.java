@@ -15,6 +15,20 @@ public class Persona
         this.edad = edad;
     }
 
+    // Getters
+    public int getEdad()
+    {
+       return edad;
+    }
+    public String getNombre()
+    {
+        return nombre;
+    }
+    public String getDireccion()
+    {
+        return direccion;
+    }
+
     //Metodos
     public void imprimir ()
     {
