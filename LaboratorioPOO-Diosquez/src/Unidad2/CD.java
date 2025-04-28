@@ -1,8 +1,5 @@
 package Unidad2;
-
-
 import Unidad1.Cancion;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -58,23 +55,32 @@ public class CD {
 
     public void grabaCancion(int posicion, Cancion nuevaCancion)
     {
-        Cancion auxi = canciones.get(posicion) ;
-        canciones.set(posicion, nuevaCancion) ;
+        Cancion auxi = canciones.get(posicion)     ;
+        canciones.set(4, nuevaCancion) ;
     }
+
+    public void agregaCancion(Cancion cancion)
+    {
+        canciones.add(cancion) ;
+    }
+
+    public void elimina(int posicion)
+    {
+        canciones.remove(posicion) ;
+    }
+
 
     public static void main(String[] args)
     {
         CD c1 = new CD () ;
-        Scanner entrada = new  Scanner(System.in) ;
-        int posicion = 0 ;
+
+        c1.agregarCancion(new Cancion("DtMF", "Bad Bunny"));
+        c1.agregarCancion(new Cancion("TURiSTA", "Bad Bunny"));
+        c1.agregarCancion(new Cancion("BAILE INoLVIDABLE", "Bad Bunny"));
+        c1.agregarCancion(new Cancion("LA MuDANZA", "Bad Bunny"));
+        c1.agregarCancion(new Cancion("VeLDÁ", "Bad Bunny"));
+
         System.out.println("La cantidad de canciones dentro del CD: " +c1.numeroCanciones()) ;
-        System.out.println("Introduzca una posicion de cancion de CD para saber cual es");
-        posicion = entrada.nextInt() ;
-
-
-
+        System.out.println("La cancion en la posicion 5 es : " +c1.verCancion(0));
     }
-
-
-
 }
