@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Unidad_2/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unidad_2/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unidad_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unidad_2/OperacionesbásicasconArrayLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unidad_2/AlumnoM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unidad_2/Materia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_0/DivisibleForDivisibleWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_0/DivisibleForDivisibleWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_2/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_2/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_2/OperacionesbásicasconArrayLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unidad_2/OperacionesbásicasconArrayLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.OperacionesbásicasconArrayLists.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ramaTiago",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez",
-    "onboarding.tips.debug.path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperacionesbásicasconArrayLists.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ramaTiago&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Unidad_2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +62,17 @@
       <updated>1743432503519</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

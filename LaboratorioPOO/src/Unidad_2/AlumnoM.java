@@ -1,16 +1,16 @@
-package Unidad_2;
+/*package Unidad_2;
 import Unidad_1.Fecha;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Alumno {
+public class AlumnoM {
     private String nombre;
     private String apellido;
     private Fecha fechaNacimiento;
     private ArrayList<Double> notas = new ArrayList<Double>();
+    private ArrayList<Materia> materias = new ArrayList<>();
 
-    public Alumno(String nombre, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas) {
+    public AlumnoM(String nombre, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas, ArrayList <Materia> materias) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
@@ -48,24 +48,21 @@ public class Alumno {
     public void setNotas(ArrayList<Double> notas) {
         this.notas = notas;
     }
-    public void agregarNota(double nota){
-        notas.add(nota);
-        System.out.println("La ultima nota es " + notas.getLast());
+
+    public ArrayList<Materia> getMaterias() {
+        return materias;
     }
-    public void menorNota() {
-        double menor = notas.getFirst();
-        for (Double aux : notas) {
-            if (aux < menor) menor = aux;
+
+    public void setMaterias(ArrayList<Materia> materias) {
+        this.materias = materias;
+    }
+
+    public void agregarMateria(Materia nuevaMateria){
+        materias.add(nuevaMateria);
+    }
+    public Double promedioEdadAlumnos(){
 
         }
-        System.out.println(menor);
-    }
-    public void mayorNota() {
-        double mayor = notas.getFirst();
-        for (Double aux : notas) {
-            if (aux > mayor) mayor = aux;
-
-        }
-        System.out.println(mayor);
     }
 }
+*/

@@ -1,15 +1,17 @@
 package Unidad_2;
 
 import Unidad_1.Cancion;
+import Unidad_1.Fecha;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+       //CD
         CD miCD = new CD();
-
         Cancion c1 = new Cancion("Bohemian Rhapsody", "Queen");
         Cancion c2 = new Cancion("Imagine", "John Lennon");
         Cancion c3 = new Cancion("Billie Jean", "Michael Jackson");
-
         miCD.agregarCancion(c1);
         miCD.agregarCancion(c2);
         miCD.agregarCancion(c3);
@@ -17,12 +19,24 @@ public class Main {
         miCD.numeroCanciones();
 
         System.out.println("Canción en la posición 1: " + miCD.posicionCancion(0).getTitulo());
-
         Cancion nueva = new Cancion("Hey Jude", "The Beatles");
         miCD.grabarCancion(1, nueva);
-
-
         miCD.eliminarCanciones(0);
 
+        //alumno
+        ArrayList<Double> Martinez = new ArrayList<Double>();
+        ArrayList<Double> Julian = new ArrayList<Double>();
+        Martinez.add(5.0);
+        Martinez.add(1.0);
+        Martinez.add(10.0);
+        Julian.add(6.0);
+        Julian.add(8.0);
+        Julian.add(0.0);
+        Alumno alum1 = new Alumno("Lautaro","Martinez", new Fecha(2023, 4,23), Martinez);
+        Alumno alum2 = new Alumno("Julian", "Alvarez", new Fecha(1986, 5, 19), Julian);
+        alum2.agregarNota(5.0);
+        alum1.agregarNota(3.0);
+        alum1.menorNota();
+        alum1.mayorNota();
     }
 }

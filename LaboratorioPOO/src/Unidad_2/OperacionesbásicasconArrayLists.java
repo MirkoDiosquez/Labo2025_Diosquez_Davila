@@ -1,7 +1,5 @@
 package Unidad_2;
-
 import Unidad_1.Persona;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -36,7 +34,7 @@ public class OperacionesbásicasconArrayLists {
             }
             for (Persona persona: personas){
                 if (persona.getEdad() > 30){
-                    System.out.println(persona.getNombre());
+                    System.out.println("La persona mayor de 30 años es "+persona.getNombre());
                 }
             }
         System.out.println("La suma de los numeros del ArrayList es "+ total);
