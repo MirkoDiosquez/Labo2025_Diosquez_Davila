@@ -38,5 +38,19 @@ public class Main {
         alum1.agregarNota(3.0);
         alum1.menorNota();
         alum1.mayorNota();
+        //alumnoMaterias
+
+        ArrayList<AlumnoM> alumno= new ArrayList<>();
+        ArrayList<Materia> materia = new ArrayList<>();
+        ArrayList<String> contenido = new ArrayList<>();
+
+        AlumnoM alum11 = new AlumnoM("Matisa", "Ruiz", new Fecha(2023, 4,23),Martinez,  materia);
+        Materia mate1 = new Materia("Matematica", contenido, alumno);
+        AlumnoM nuevaAlumno = new AlumnoM("Matise", "Rusiz", new Fecha(2023, 4,23), Julian,materia);
+        Materia nuevaMateria = new Materia("Matematicas", contenido, alumno);
+        mate1.agregarAlumno(nuevaAlumno);
+        alum11.agregarMateria(nuevaMateria);
+        mate1.promedioEdadAlumnos();
+        alum11.promedioNotasAlumnos();
     }
 }

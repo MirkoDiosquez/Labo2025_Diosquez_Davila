@@ -1,4 +1,4 @@
-/*package Unidad_2;
+package Unidad_2;
 import Unidad_1.Fecha;
 
 import java.util.ArrayList;
@@ -60,9 +60,16 @@ public class AlumnoM {
     public void agregarMateria(Materia nuevaMateria){
         materias.add(nuevaMateria);
     }
-    public Double promedioEdadAlumnos(){
 
+
+    public Double  promedioNotasAlumnos()
+    {
+        Double promedio =0.0;
+        for (Double nota : notas){
+            promedio+=nota;
         }
+        promedio= promedio/notas.size();
+        return promedio;
     }
 }
-*/
+
