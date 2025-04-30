@@ -11,7 +11,7 @@ public class Equipo {
     public Equipo(String nombre, String barrio, String disponibilidad, ArrayList<Jugador> jugadores) {
         this.nombre = nombre;
         this.barrio = barrio;
-        Disponibilidad = disponibilidad;
+        this.Disponibilidad = disponibilidad;
         this.jugadores = jugadores;
     }
 
@@ -47,4 +47,17 @@ public class Equipo {
         this.jugadores = jugadores;
     }
 
+    public boolean comprobarCapitan(){
+        boolean capitan= false;
+        int contador=0;
+        for (int i = 0; i < jugadores.size(); i++) {
+            if (jugadores.get(i).isCapitan())
+            {
+                capitan = true;
+                contador+=1;
+            }
+        }if (contador!= 1)return false;
+        return  capitan;
+
+    }
 }
