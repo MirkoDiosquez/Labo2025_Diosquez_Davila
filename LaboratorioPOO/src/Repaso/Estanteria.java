@@ -3,38 +3,35 @@ package Repaso;
 import java.util.ArrayList;
 
 public class Estanteria {
-    ArrayList<Pelicula> estanteria = new ArrayList<>();
+    ArrayList<Pelicula> peliculas = new ArrayList<>();
 
-    public Estanteria(ArrayList<Pelicula> estanteria) {
-        this.estanteria = estanteria;
+    public Estanteria(ArrayList<Pelicula> peliculas) {
+        this.peliculas = peliculas;
     }
 
-    public ArrayList<Pelicula> getEstanteria() {
-        return estanteria;
+    public ArrayList<Pelicula> getPeliculas() {
+        return peliculas;
     }
 
-    public void setEstanteria(ArrayList<Pelicula> estanteria) {
-        this.estanteria = estanteria;
+    public void setPeliculas(ArrayList<Pelicula> peliculas) {
+        this.peliculas = peliculas;
     }
     public Pelicula mayDuracion(){
-        Pelicula pelimayorDuracion = estanteria.getFirst();
-        for (Pelicula estanterias: estanteria){
-            if (estanterias.getDuracion()> pelimayorDuracion.getDuracion())pelimayorDuracion=estanterias;
+        Pelicula pelimayorDuracion = peliculas.getFirst();
+        for (Pelicula peliculass: peliculas){
+            if (peliculass.getDuracion()> pelimayorDuracion.getDuracion())pelimayorDuracion=peliculass;
         }
     return  pelimayorDuracion;
     }
-    public void actoresCant(){
+    public void directoresCant(){
         int contador=0;
-        for (int i = 0; i < estanteria.size(); i++) {
-            for (int j = 0; j < estanteria.size(); j++) {
-                if (estanteria.get(i).getDirectores()==estanteria.get(j).getDirectores()){
-                    contador++;
+        for (int i = 0; i < peliculas.size(); i++) {
+            for (int j = i + 1; j < peliculas.size(); j++) {
+                if (peliculas.get(i).getDirectores() == peliculas.get(j).getDirectores()) contador++;
                 }
-            }
-        }
-        for (int i = 0; i < estanteria.size(); i++) {
-            if (contador>2) System.out.println(estanteria.get(i).getDirectores());
-
+            if (contador > 2) System.out.println(peliculas.get(i).getDirectores());
+            contador = 0;
         }
     }
+
 }

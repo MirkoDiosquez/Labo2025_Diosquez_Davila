@@ -8,7 +8,7 @@ public class Pelicula {
     private String nombre;
     private String genero;
     private int duracion;
-    private ArrayList<String> directores = new ArrayList<>();
+    private ArrayList<Persona> directores = new ArrayList<>();
     private ArrayList<Persona> actores = new ArrayList<>();
     private ArrayList<String> idiomas = new ArrayList<>();
 
@@ -36,11 +36,11 @@ public class Pelicula {
         this.duracion = duracion;
     }
 
-    public ArrayList<String> getDirectores() {
+    public ArrayList<Persona> getDirectores() {
         return directores;
     }
 
-    public void setDirectores(ArrayList<String> directores) {
+    public void setDirectores(ArrayList<Persona> directores) {
         this.directores = directores;
     }
 
