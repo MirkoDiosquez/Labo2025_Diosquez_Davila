@@ -1,4 +1,4 @@
-package Unidad_2;
+package curling;
 import Unidad_1.Fecha;
 public class Jugador {
     private String Nombre;

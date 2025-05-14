@@ -1,6 +1,7 @@
 package Unidad_1;
 
-import java.sql.SQLOutput;
+import Figuras.Circulo;
+import Figuras.Rectangulo;
 
 public class Main {
     public static void main(String[] args) {

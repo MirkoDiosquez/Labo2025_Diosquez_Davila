@@ -1,7 +1,8 @@
-package Unidad_1;
+package Figuras;
 
-public class Circulo {
+public class Circulo extends  Figuras {
     private double radio;
+
 
     public Circulo() {
         this.radio=2;
@@ -21,7 +22,7 @@ public class Circulo {
     }
     public double obtenerPerimetro(){
         double perimetro= radio * Math.PI * 2;
-        return perimetro;
+        return super.obtenerPerimetro();
     }
 
 }

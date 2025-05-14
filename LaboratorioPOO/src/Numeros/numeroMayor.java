@@ -1,3 +1,5 @@
+package Numeros;
+
 public class numeroMayor {
     public static void main(String[] args) {
         int variable1=90;

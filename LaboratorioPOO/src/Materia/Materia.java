@@ -1,4 +1,4 @@
-package Unidad_2;
+package Materia;
 import java.time.LocalDate;
 
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class Materia {
         this.listadoAlumnos = listadoAlumnos;
     }
 
-    public void agregarAlumno(AlumnoM  nuevaAlumno){
+    public void agregarAlumno(AlumnoM nuevaAlumno){
         listadoAlumnos.add(nuevaAlumno);
     }
 

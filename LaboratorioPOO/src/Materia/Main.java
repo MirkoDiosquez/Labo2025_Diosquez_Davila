@@ -1,5 +1,6 @@
-package Unidad_2;
+package Materia;
 
+import Unidad_1.CD;
 import Unidad_1.Cancion;
 import Unidad_1.Fecha;
 
@@ -32,8 +33,8 @@ public class Main {
         Julian.add(6.0);
         Julian.add(8.0);
         Julian.add(0.0);
-        Alumno alum1 = new Alumno("Lautaro","Martinez", new Fecha(2023, 4,23), Martinez);
-        Alumno alum2 = new Alumno("Julian", "Alvarez", new Fecha(1986, 5, 19), Julian);
+        Alumno alum1 = new Alumno("Lautaro",14,"Campana 23","Martinez", new Fecha(2023, 4,23), Martinez);
+        Alumno alum2 = new Alumno("Julian",14,"Terrada 31", "Alvarez", new Fecha(1986, 5, 19), Julian);
         alum2.agregarNota(5.0);
         alum1.agregarNota(3.0);
         alum1.menorNota();
@@ -44,9 +45,9 @@ public class Main {
         ArrayList<Materia> materia = new ArrayList<>();
         ArrayList<String> contenido = new ArrayList<>();
 
-        AlumnoM alum11 = new AlumnoM("Matisa", "Ruiz", new Fecha(2023, 4,23),Martinez,  materia);
+        AlumnoM alum11 = new AlumnoM("Matisa", 41,"amdasda","Ruiz", new Fecha(2023, 4,23),Martinez,  materia);
         Materia mate1 = new Materia("Matematica", contenido, alumno);
-        AlumnoM nuevaAlumno = new AlumnoM("Matise", "Rusiz", new Fecha(2023, 4,23), Julian,materia);
+        AlumnoM nuevaAlumno = new AlumnoM("Matise", 31,"dada","Rusiz", new Fecha(2023, 4,23), Julian,materia);
         Materia nuevaMateria = new Materia("Matematicas", contenido, alumno);
         mate1.agregarAlumno(nuevaAlumno);
         alum11.agregarMateria(nuevaMateria);

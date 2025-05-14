@@ -1,17 +1,18 @@
-package Unidad_2;
+package Materia;
 import Unidad_1.Fecha;
+import Unidad_1.Persona;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Alumno {
+public class AlumnoM extends Persona {
     private String nombre;
     private String apellido;
     private Fecha fechaNacimiento;
     private ArrayList<Double> notas = new ArrayList<Double>();
+    private ArrayList<Materia> materias = new ArrayList<>();
 
-    public Alumno(String nombre, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas) {
-        this.nombre = nombre;
+    public AlumnoM(String nombre, int edad, String direccion, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas, ArrayList <Materia> materias) {
+        super(nombre, edad, direccion);
         this.apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
         this.notas = notas;
@@ -48,24 +49,28 @@ public class Alumno {
     public void setNotas(ArrayList<Double> notas) {
         this.notas = notas;
     }
-    public void agregarNota(double nota){
-        notas.add(nota);
-        System.out.println("La ultima nota es " + notas.getLast());
-    }
-    public void menorNota() {
-        double menor = notas.getFirst();
-        for (Double aux : notas) {
-            if (aux < menor) menor = aux;
 
-        }
-        System.out.println(menor);
+    public ArrayList<Materia> getMaterias() {
+        return materias;
     }
-    public void mayorNota() {
-        double mayor = notas.getFirst();
-        for (Double aux : notas) {
-            if (aux > mayor) mayor = aux;
 
+    public void setMaterias(ArrayList<Materia> materias) {
+        this.materias = materias;
+    }
+
+    public void agregarMateria(Materia nuevaMateria){
+        materias.add(nuevaMateria);
+    }
+
+
+    public Double  promedioNotasAlumnos()
+    {
+        Double promedio =0.0;
+        for (Double nota : notas){
+            promedio+=nota;
         }
-        System.out.println(mayor);
+        promedio= promedio/notas.size();
+        return promedio;
     }
 }
+

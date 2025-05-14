@@ -1,3 +1,5 @@
+package Numeros;
+
 import java.util.Scanner;
 
 public class IngresoDatos {

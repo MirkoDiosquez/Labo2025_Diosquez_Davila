@@ -1,4 +1,4 @@
-package Unidad_2;
+package curling;
 
 import java.util.ArrayList;
 

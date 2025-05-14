@@ -1,4 +1,4 @@
-    package carpetaJavaDavila;
+    package Numeros;
 
     import java.util.Scanner;
 
