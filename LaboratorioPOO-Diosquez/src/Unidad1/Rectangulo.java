@@ -1,6 +1,8 @@
 package Unidad1;
 
-public class Rectangulo
+import Unidad3.Figura;
+
+public class Rectangulo extends Figura
 {
     private double base ;
     private double altura ;
@@ -10,18 +12,15 @@ public class Rectangulo
         this.base = 2 ;
         this.altura = 3 ;
     }
-
     public Rectangulo (double base, double altura)
     {
         this.base = base ;
         this.altura = altura ;
     }
-
     public double getBase ()
     {
         return this.base ;
     }
-
     public double getAltura ()
     {
         return this.altura ;
@@ -32,7 +31,6 @@ public class Rectangulo
         double valor = base * altura ;
         return valor ;
     }
-
     public double perimetro ()
     {
         double valor = (2 * base) + (2 * altura) ;

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Persona
 {
     private String nombre ;
+    private String apellido ;
     private String direccion;
     private int edad ;
 
@@ -12,6 +13,14 @@ public class Persona
     public Persona(String nombre,int edad,String direccion) {
         this.nombre = nombre;
         this.direccion = direccion;
+        this.edad = edad;
+    }
+
+    public Persona(String direccion, String nombre, String apellido, int edad)
+    {
+        this.direccion = direccion;
+        this.nombre = nombre;
+        this.apellido = apellido;
         this.edad = edad;
     }
 
@@ -27,6 +36,27 @@ public class Persona
     public String getDireccion()
     {
         return direccion;
+    }
+    public String getApellido()
+    {
+        return apellido;
+    }
+
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
+    }
+    public void setApellido(String apellido)
+    {
+        this.apellido = apellido;
+    }
+    public void setDireccion(String direccion)
+    {
+        this.direccion = direccion;
+    }
+    public void setEdad(int edad)
+    {
+        this.edad = edad;
     }
 
     //Metodos

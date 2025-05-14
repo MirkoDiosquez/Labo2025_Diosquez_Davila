@@ -1,35 +1,25 @@
 package Unidad2;
 
 import Unidad1.Fecha;
+import Unidad1.Persona;
 
-public class Jugador
+public class Jugador extends Persona
 {
-    private String nombre_jugador ;
-    private Fecha fecha ;
-    private int numero ;
+    private int dorsal ;
     private boolean capitan ;
 
-    public Jugador (String nombre_jugador , Fecha fecha, int numero )
+    public Jugador (String nombre, String apellido,String direccion , int edad , Fecha fecha, int dorsal , boolean capitan)
     {
-        this.nombre_jugador = nombre_jugador ;
-        this.fecha = fecha ;
-        this.numero = numero ;
+       super(nombre, apellido, direccion, edad);
+       this.dorsal = dorsal ;
+       this.capitan = capitan ;
     }
 
     // Getters
-    public String getNombre_jugador()
-    {
-        return nombre_jugador;
-    }
 
-    public Fecha getFecha()
-    {
-        return fecha;
-    }
-
-    public int getNumero()
-    {
-        return numero;
+    public int getDorsal()
+      {
+        return dorsal;
     }
 
     public boolean isCapitan()
@@ -38,19 +28,10 @@ public class Jugador
     }
 
     // Setters
-    public void setNombre_jugador(String nombre_jugador)
-    {
-        this.nombre_jugador = nombre_jugador;
-    }
 
-    public void setFecha(Fecha fecha)
+    public void setDorsal(int dorsal)
     {
-        this.fecha = fecha;
-    }
-
-    public void setNumero(int numero)
-    {
-        this.numero = numero;
+        this.dorsal = dorsal;
     }
 
     public void setCapitan(boolean capitan)

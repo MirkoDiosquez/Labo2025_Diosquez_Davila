@@ -1,6 +1,8 @@
 package Unidad1;
 
-public class Circulo
+import Unidad3.Figura;
+
+public class Circulo extends Figura
 {
     private int radio ;
 
@@ -16,13 +18,13 @@ public class Circulo
         this.radio = radio ;
     }
 
-    public double CalcularArea(int radio)
+    public double area(int radio)
     {
         double valor = (radio*radio) * 3.14 ;
         return valor ;
     }
 
-    public double CalcularPerimetro(int radio)
+    public double perimetro(int radio)
     {
         double valor = 3.14 * 2 * radio ;
         return valor ;
@@ -31,8 +33,8 @@ public class Circulo
     public static void main(String[] args)
     {
         Circulo c1 = new Circulo(2) ;
-        System.out.println("El area del ciruclo es: " +c1.CalcularArea(5));
-        System.out.println("El perimetro del circulo es: " +c1.CalcularPerimetro(5));
+        System.out.println("El area del ciruclo es: " +c1.area(5));
+        System.out.println("El perimetro del circulo es: " +c1.perimetro(5));
     }
 
 }

@@ -70,7 +70,7 @@ public class Estanteria
         {
             if (ee.getNombre() == aux.getNombre())
             {
-                if (aux.)
+              //  if (aux.)
                 {
 
                 }
