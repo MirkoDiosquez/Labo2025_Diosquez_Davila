@@ -17,5 +17,14 @@ public class Camioneta extends  VehiculoMotorizado {
     public void setCapacidadCarga(double capacidadCarga) {
         this.capacidadCarga = capacidadCarga;
     }
-
+    public boolean cargaAñadida(double cantidad){
+        boolean añadido = false;
+        double total =  cantidad+ capacidadCarga;
+        if (total>capacidadCarga)añadido = false;
+        else if (total<capacidadCarga){
+            capacidadCarga+=cantidad;
+            añadido = true;
+            }
+        return añadido;
+    }
 }

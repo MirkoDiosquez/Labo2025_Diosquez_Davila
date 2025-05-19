@@ -9,8 +9,8 @@ public class Vehiculo {
     private String color;
     private int cantRuedas;
     private LocalDate fechaFabricacion;
-    private ArrayList<Auto> autos= new ArrayList<>();
-    private ArrayList <Camioneta> camionetas= new ArrayList<>();
+    private ArrayList<VehiculoMotorizado> vehiculoMotorizados = new ArrayList<>();
+    private ArrayList<Bicicleta> bicicletas = new ArrayList<>();
     public Vehiculo(String marca, String modelo, String color, int cantRuedas, LocalDate fechaFabricacion) {
         this.marca = marca;
         this.modelo = modelo;
@@ -58,6 +58,28 @@ public class Vehiculo {
 
     public void setFechaFabricacion(LocalDate fechaFabricacion) {
         this.fechaFabricacion = fechaFabricacion;
+    }
+
+    public ArrayList<VehiculoMotorizado> getVehiculoMotorizados() {
+        return vehiculoMotorizados;
+    }
+
+    public void setVehiculoMotorizados(ArrayList<VehiculoMotorizado> vehiculoMotorizados) {
+        this.vehiculoMotorizados = vehiculoMotorizados;
+    }
+
+    public ArrayList<Bicicleta> getBicicletas() {
+        return bicicletas;
+    }
+
+    public void setBicicletas(ArrayList<Bicicleta> bicicletas) {
+        this.bicicletas = bicicletas;
+    }
+
+
+    public int cantBici(){
+        int cantBicis= bicicletas.size();
+        return cantBicis;
     }
 
 }
