@@ -9,20 +9,14 @@ public class Persona
     private String direccion;
     private int edad ;
 
-    // Constreuctor por parametro
-    public Persona(String nombre,int edad,String direccion) {
-        this.nombre = nombre;
-        this.direccion = direccion;
-        this.edad = edad;
-    }
-
-    public Persona(String direccion, String nombre, String apellido, int edad)
-    {
+    // Constreuctor por parametr
+    public Persona(String direccion, String nombre, String apellido, int edad) {
         this.direccion = direccion;
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
     }
+
 
     // Getters
     public int getEdad()
@@ -79,7 +73,7 @@ public class Persona
         dire = entrada.next() ;
         System.out.println("Introduce la edad de la persona");
         edi = entrada.nextInt() ;
-        Persona p1 = new Persona(nom,edi,dire) ;
+        Persona p1 = new Persona("","","",0) ;
         p1.imprimir() ;
     }
 }
