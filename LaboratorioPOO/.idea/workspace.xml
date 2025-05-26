@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vehiculos/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Plato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pedidos/Sistema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehiculos/Camioneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehiculos/Camioneta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehiculos/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehiculos/Sistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehiculos/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehiculos/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehiculos/VehiculoMotorizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehiculos/VehiculoMotorizado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
