@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Plato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pedidos/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/Componente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoSalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computadoras/SitioWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,18 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperacionesbásicasconArrayLists.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ramaTiago&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.OperacionesbásicasconArrayLists.executor": "Run",
+    "Application.SitioWeb.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "ramaTiago",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez",
+    "onboarding.tips.debug.path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Unidad_2" />
