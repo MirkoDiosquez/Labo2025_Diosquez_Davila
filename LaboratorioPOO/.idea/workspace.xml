@@ -5,15 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/Componente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoEntrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoSalida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/Impresora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computadoras/SitioWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/DetectorHumo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/Dispositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/SensorCompuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/SensorPresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/SensorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alarmas/SistemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/ComputadorasPersonalizadas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Componente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Computadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Efectivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/MetodoImpresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/MetodoPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Periferico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/QR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Salida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Tarjeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/TiendaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComputadorasPersonalizadas/src/Venta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LaboratorioPOO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LaboratorioPOO.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +66,23 @@
     "Application.Main.executor": "Run",
     "Application.OperacionesbásicasconArrayLists.executor": "Run",
     "Application.SitioWeb.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "ramaTiago",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO-Diosquez",
+    "last_opened_file_path": "/home/tiagodavila/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src",
     "onboarding.tips.debug.path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Unidad_2" />
     </key>
