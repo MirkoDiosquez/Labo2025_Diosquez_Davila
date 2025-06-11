@@ -1,12 +1,14 @@
 package Unidad2;
 
+import Unidad4.Turno;
+
 public class Equipo
 {
     private String nombre_equipo ;
     private String bario ;
-    private String horario ;
+    private Turno horario ;
 
-    public Equipo (String nombre_equipo, String bario, String horario )
+    public Equipo (String nombre_equipo, String bario, Turno horario )
     {
         this.bario = bario ;
         this.nombre_equipo = nombre_equipo ;
@@ -22,7 +24,7 @@ public class Equipo
         return bario;
     }
 
-    public String getHorario() {
+    public Turno getHorario() {
         return horario;
     }
 
@@ -35,7 +37,7 @@ public class Equipo
         this.nombre_equipo = nombre_equipo;
     }
 
-    public void setHorario(String horario) {
+    public void setHorario(Turno horario) {
         this.horario = horario;
     }
 }
