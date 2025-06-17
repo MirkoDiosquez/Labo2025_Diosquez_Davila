@@ -12,10 +12,6 @@ public class SensorCompuesto extends Dispositivo{
         this.sensores = sensores;
         this.umbral = umbral;
     }
-    public SensorCompuesto(){
-        this.sensores=null;
-        this.umbral=0.0;
-    }
 
 
 
@@ -35,13 +31,13 @@ public class SensorCompuesto extends Dispositivo{
         this.umbral = umbral;
     }
 
-    public void sonarAlarma(){
+    public String alarma(){
         double sumador=0;
 
         for (Dispositivo s:sensores){
             sumador+=s.getMedida();
             }
-        if ((sumador/3)>umbral)System.out.println("Se dispara la alarma");
-
+        if ((sumador/3)>umbral)return ("Se dispara la alarma");
+    return null;
     }
 }

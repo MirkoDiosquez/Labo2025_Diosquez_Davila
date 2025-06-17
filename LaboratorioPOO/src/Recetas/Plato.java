@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public abstract class Plato {
     private String nombrePlato;
     private Dificultad dificultad;
-    private  ArrayList<String> pasos=new ArrayList<>();
+    private  ArrayList<String> pasos;
 
     abstract void mostrar();
-
+    abstract boolean esDeltipo(Plato p);
     public Plato(String nombrePlato, Dificultad dificultad) {
         this.nombrePlato = nombrePlato;
         this.dificultad = dificultad;

@@ -1,7 +1,7 @@
 package Figuras;
 
-public class Figuras {
+public abstract class Figuras {
 
-    public double obtenerArea(){return 0;}
-    public double obtenerPerimetro(){return 0;}
+    abstract double obtenerArea();
+    abstract double obtenerPerimetro();
 }

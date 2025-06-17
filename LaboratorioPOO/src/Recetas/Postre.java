@@ -6,8 +6,8 @@ public class Postre extends Plato {
     private int temperaturaPreparacion;
     private boolean diabeticos;
 
-    public Postre(String nombrePlato, Dificultad dificultad, ArrayList<String> pasos, int temperaturaPreparacion, boolean diabeticos) {
-        super(nombrePlato, dificultad, pasos);
+    public Postre(String nombrePlato, Dificultad dificultad, int temperaturaPreparacion, boolean diabeticos) {
+        super(nombrePlato, dificultad);
         this.temperaturaPreparacion = temperaturaPreparacion;
         this.diabeticos = diabeticos;
     }
@@ -31,5 +31,9 @@ public class Postre extends Plato {
         for (String p: super.getPasos()){
             System.out.println(p + " Recordar mantener la cocina limpia y el horno al minimo");
         }
+    }
+    public boolean esDeltipo(Plato p){
+        if (p instanceof Postre)return true;
+        else return false;
     }
 }

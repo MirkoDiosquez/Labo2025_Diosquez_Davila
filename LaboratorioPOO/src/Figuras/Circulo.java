@@ -22,7 +22,7 @@ public class Circulo extends  Figuras {
     }
     public double obtenerPerimetro(){
         double perimetro= radio * Math.PI * 2;
-        return super.obtenerPerimetro();
+        return perimetro;
     }
 
 }

@@ -10,6 +10,14 @@ public class Entrada extends Plato{
         this.estado = estado;
     }
 
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
+
     public void mostrar() {
         if (estado.name().equals("FRIA")) {
             for (String p : super.getPasos()) {
@@ -23,5 +31,9 @@ public class Entrada extends Plato{
                 System.out.println(p);
             }
         }
+    }
+    public boolean esDeltipo(Plato p){
+        if (p instanceof Entrada)return true;
+        else return false;
     }
 }

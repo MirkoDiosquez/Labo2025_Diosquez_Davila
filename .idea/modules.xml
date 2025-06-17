@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Labo2025_Diosquez_Davila.iml" filepath="$PROJECT_DIR$/Labo2025_Diosquez_Davila.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaboratorioPOO/LaboratorioPOO.iml" filepath="$PROJECT_DIR$/LaboratorioPOO/LaboratorioPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaboratorioPOO-Diosquez/LaboratorioPOO-Diosquez.iml" filepath="$PROJECT_DIR$/LaboratorioPOO-Diosquez/LaboratorioPOO-Diosquez.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaboratorioPOO/src/LaboratorioPOO2.iml" filepath="$PROJECT_DIR$/LaboratorioPOO/src/LaboratorioPOO2.iml" />
+    </modules>
+  </component>
+</project>

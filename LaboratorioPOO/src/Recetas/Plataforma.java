@@ -36,8 +36,9 @@ public class Plataforma {
     public int cantTotalRecetas(){
         return platos.size();
     }
-    public Plato platoMayorPasos(Plato platoMay) {
-    for (Plato plato:platos) {
+    public Plato platoMayorPasos() {
+        Plato platoMay = platos.getFirst();
+        for (Plato plato:platos) {
         if (plato.getPasos().size() > platoMay.getPasos().size()) platoMay =plato;
     }
     return platoMay;
@@ -49,5 +50,13 @@ public class Plataforma {
         }
         return platosTipo;
     }
+    public ArrayList<Plato> recetasTipoDesafio(Plato platoFiltrado){
+        ArrayList<Plato>platosTipo=new ArrayList<>();
+        for (Plato p: platos){
+            if (p.esDeltipo(platoFiltrado))platosTipo.add(p);
+        }
+        return platosTipo;
+    }
+
 
 }

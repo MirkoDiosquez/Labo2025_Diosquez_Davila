@@ -2,7 +2,7 @@ package Alarmas;
 
 import java.time.LocalDate;
 
-public class Dispositivo {
+public abstract class Dispositivo {
     private boolean estado;
     private double medida;
     private double umbralInicial;
@@ -46,7 +46,5 @@ public class Dispositivo {
     public void setAñoAdquisicion(LocalDate añoAdquisicion) {
         this.añoAdquisicion = añoAdquisicion;
     }
-    public String alarma(){
-        return null;
-    }
+    abstract String alarma();
 }

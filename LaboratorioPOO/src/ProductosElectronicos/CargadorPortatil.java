@@ -2,6 +2,8 @@ package ProductosElectronicos;
 
 public class CargadorPortatil extends Producto {
     private int cantidadMaximaCarga;
+    public static categoria = Categoria.CARGADOR.name();
+
 
     public CargadorPortatil(String nombre, int stock, double precio, int cantidadMaximaCarga) {
         super(nombre, stock, precio);
