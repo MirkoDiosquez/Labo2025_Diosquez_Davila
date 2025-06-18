@@ -1,47 +1,43 @@
 package curling;
-import Unidad_1.Fecha;
-public class Jugador {
-    private String Nombre;
-    private Fecha fecha;
-    private int numero;
-    private boolean capitan;
 
-    public Jugador(String nombre, Fecha fecha, int numero, boolean capitan) {
-        Nombre = nombre;
-        this.fecha = fecha;
-        this.numero = numero;
+import Unidad_1.Persona;
+
+import java.time.LocalDate;
+
+public class Jugador extends Persona {
+    LocalDate fechaNacimiento;
+    int numeroCamiseta;
+    Boolean capitan;
+
+
+    public Jugador() {
+        super(nombre, edad, Direccion);
+        this.fechaNacimiento = fechaNacimiento;
+        this.numeroCamiseta = numeroCamiseta;
         this.capitan = capitan;
     }
 
-    public String getNombre() {
-        return Nombre;
+    public LocalDate getFechaNacimiento() {
+        return this.fechaNacimiento;
     }
 
-    public void setNombre(String nombre) {
-        Nombre = nombre;
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
 
-    public Fecha getFecha() {
-        return fecha;
+    public int getNumeroCamiseta() {
+        return this.numeroCamiseta;
     }
 
-    public void setFecha(Fecha fecha) {
-        this.fecha = fecha;
+    public void setNumeroCamiseta(int numeroCamiseta) {
+        this.numeroCamiseta = numeroCamiseta;
     }
 
-    public int getNumero() {
-        return numero;
+    public Boolean getCapitan() {
+        return this.capitan;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public boolean isCapitan() {
-        return capitan;
-    }
-
-    public void setCapitan(boolean capitan) {
+    public void setCapitan(Boolean capitan) {
         this.capitan = capitan;
     }
 }

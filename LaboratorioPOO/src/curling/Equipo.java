@@ -3,20 +3,27 @@ package curling;
 import java.util.ArrayList;
 
 public class Equipo {
-    private String nombre;
-    private String barrio;
-    private String Disponibilidad;
-    ArrayList<Jugador> jugadores = new ArrayList<>();
+    String nombre;
+    String barrio;
+    ArrayList<Jugador> jugadores;
+    Turno turno;
 
-    public Equipo(String nombre, String barrio, String disponibilidad, ArrayList<Jugador> jugadores) {
+    public Equipo() {
+        this.nombre = "N/A";
+        this.barrio = "N/A (como san lorenzo)";
+        this.jugadores = new ArrayList<>();
+        this.turno=Turno.MANIANA;
+    }
+
+    public Equipo(String nombre, String barrio, ArrayList<Jugador> jugadores, Turno turno) {
         this.nombre = nombre;
         this.barrio = barrio;
-        this.Disponibilidad = disponibilidad;
         this.jugadores = jugadores;
+        this.turno = turno;
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public void setNombre(String nombre) {
@@ -24,40 +31,64 @@ public class Equipo {
     }
 
     public String getBarrio() {
-        return barrio;
+        return this.barrio;
     }
 
     public void setBarrio(String barrio) {
         this.barrio = barrio;
     }
 
-    public String getDisponibilidad() {
-        return Disponibilidad;
-    }
-
-    public void setDisponibilidad(String disponibilidad) {
-        Disponibilidad = disponibilidad;
-    }
-
     public ArrayList<Jugador> getJugadores() {
-        return jugadores;
+        return this.jugadores;
     }
 
     public void setJugadores(ArrayList<Jugador> jugadores) {
         this.jugadores = jugadores;
     }
 
-    public boolean comprobarCapitan(){
-        boolean capitan= false;
-        int contador=0;
-        for (int i = 0; i < jugadores.size(); i++) {
-            if (jugadores.get(i).isCapitan())
-            {
-                capitan = true;
-                contador+=1;
-            }
-        }if (contador!= 1)return false;
-        return  capitan;
+    public Turno getTurno() {
+        return this.turno;
+    }
+    public String getTurnoNombre() {
+        return this.turno.name();
+    }
 
+    public void setTurno(Turno turno) {
+        this.turno = turno;
+    }
+
+    public Boolean numeroOcupadoJugador(Jugador jugador){
+        for (Jugador jugadorAct : this.jugadores){
+            if (jugadorAct.getNumeroCamiseta() == jugador.getNumeroCamiseta()){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Boolean numeroOcupadoInt(int num){
+        for (Jugador jugadorAct : this.jugadores){
+            if (jugadorAct.getNumeroCamiseta() == num){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Boolean capitanOcupado(){
+        for (Jugador jugadorAct : this.jugadores){
+            if (jugadorAct.getCapitan()){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void addJugador(Jugador jugador){
+        this.jugadores.add(jugador);
+    }
+
+    public Jugador getJugador(int num){
+        return this.jugadores.get(num);
     }
 }
