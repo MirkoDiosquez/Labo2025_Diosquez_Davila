@@ -1,5 +1,7 @@
 package duck.choice;
 
+import java.util.Arrays;
+
 public class ShopApp {
     public static void main(String[] args) {
         double total = 0.0;
@@ -22,5 +24,15 @@ public class ShopApp {
         }
 
         System.out.println("Min price "+ Clothing.MIN_PRICE);System.out.println("Tax rate "+ Clothing.TAX_RATE);
+        for (Clothing item: c1.getItems()){
+            System.out.println("Item " + item);
+        }
+        for (Clothing c : c1.getItems()){
+            System.out.println("Item: " + c);
+        }
+        Arrays.sort(c1.getItems());
+        for (Clothing c : c1.getItems()){
+            System.out.println("Item: " + c);
+        }
     }
 }
