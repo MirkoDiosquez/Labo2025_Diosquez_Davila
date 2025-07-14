@@ -5,16 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a34ea72-ea8a-46e6-b62b-87c1a477a855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Dificultad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Plataforma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Plato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Postre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recetas/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Aplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Pajaro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionDeMascotas/Pez.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductosElectronicos/Tecnologia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductosElectronicos/Tecnologia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductosElectronicos/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductosElectronicos/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/Componente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/Componente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/DispositivoEntrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoEntrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/DispositivoSalida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/DispositivoSalida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computadoras/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computadoras/Impresora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjerciciosProfeTest/Estanteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjerciciosProfeTest/Estanteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjerciciosProfeTest/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjerciciosProfeTest/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materia/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Materia/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materia/AlumnoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Materia/AlumnoM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Materia/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pedidos/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pedidos/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pedidos/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pedidos/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pedidos/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pedidos/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pedidos/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pedidos/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repaso/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repaso/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canciones/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Cafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objetos/Cafetera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canciones/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objetos/Coche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Fecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fecha/Fecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canciones/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainU_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_1/prueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unidad_2/OperacionesbásicasconArrayLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperacionesBasicas/OperacionesbásicasconArrayLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/curling/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/curling/Jugador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +65,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperacionesbásicasconArrayLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SitioWeb.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ramaTiago&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tiagodavila/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.OperacionesbásicasconArrayLists.executor": "Run",
+    "Application.SitioWeb.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ramaTiago",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tiagodavila/Descargas/SocketsRedes",
+    "onboarding.tips.debug.path": "/home/alumno/Descargas/Labo2025_Diosquez_Davila/LaboratorioPOO/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -97,7 +122,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Unidad_1/Fecha.java</url>
+          <url>file://$PROJECT_DIR$/src/Fecha/Fecha.java</url>
           <line>69</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

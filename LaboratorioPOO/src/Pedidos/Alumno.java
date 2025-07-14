@@ -1,6 +1,6 @@
 package Pedidos;
 
-import Unidad_1.Persona;
+import Persona.Persona;
 
 public class Alumno extends Persona {
     private String divison;

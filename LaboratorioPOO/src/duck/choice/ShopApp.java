@@ -2,27 +2,25 @@ package duck.choice;
 
 public class ShopApp {
     public static void main(String[] args) {
-        Customer c1 = new Customer();
-        Clothing item1= new Clothing();
-        Clothing item2= new Clothing();
+        double total = 0.0;
+        // double tax = 0.2;
+        int measurement = 8;
+        System.out.println("Welcome to the duck shop!");
+        Customer c1 = new Customer("Pinky", 10);
+        // c1.setName("Pinky");
+        //c1.setSize("S")
+        Clothing item1 = new Clothing(20.9,"Blue Jacket", "M");
+        Clothing item2 = new Clothing(10.5,"Orange T-Shirt", "S");
 
-        double tax= 0.2, total=0.0;
-        c1.name = "Pinky";
-        item1.description = "Blue Jacket";
-        item1.price= 20.9;
-        item1.size="M";
-        item2.description = "Orange T-Shirt";
-        item2.price= 10.5;
-        item2.size="S";
+        Clothing[] items = {item1, item2, new Clothing(5, "Green Scarf", "S"), new Clothing(10.5, "Blue T-Shirt", "S")};
 
+        c1.addItems(items);
+        //c1.setSize(measurement);
+        System.out.println("Customer : " + c1.getName() + " " + c1.getSize() +  ", "+ c1.getTotalClothingCost());
+        for(Clothing item : c1.getItems()){
+            System.out.println(item.getDescription());
+        }
 
-        System.out.println("Coustumer n1: " + c1.name);
-        System.out.println("Item 1: " + item1.description + " " + item1.price + " " + item1.size);
-        System.out.println("Item 2: " + item2.description + " " + item2.price + " " + item2.size);
-
-        total = (item1.price + (item2.price)*2)*(1+tax);
-        System.out.println("Total: " + total);
+        System.out.println("Min price "+ Clothing.MIN_PRICE);System.out.println("Tax rate "+ Clothing.TAX_RATE);
     }
-
-
 }

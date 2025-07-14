@@ -1,6 +1,6 @@
 package curling;
 
-import Unidad_1.Persona;
+import Persona.Persona;
 
 import java.time.LocalDate;
 

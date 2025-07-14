@@ -1,7 +1,7 @@
 package EjerciciosProfeTest;
 
 import java.util.ArrayList;
-import Unidad_1.Persona;
+import Persona.Persona;
 public class Pelicula {
     private String nombre;
     private String genero;

@@ -1,6 +1,6 @@
 package Materia;
-import Unidad_1.Fecha;
-import Unidad_1.Persona;
+import Fecha.Fecha;
+import Persona.Persona;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package Computadoras;
 
-import Unidad_1.Persona;
+import Persona.Persona;
 
 public class Cliente extends Persona {
     private int celular;

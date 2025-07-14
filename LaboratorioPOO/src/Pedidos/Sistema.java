@@ -1,7 +1,5 @@
 package Pedidos;
 
-import Unidad_1.Persona;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 

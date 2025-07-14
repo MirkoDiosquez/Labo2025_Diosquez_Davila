@@ -1,4 +1,4 @@
-package Unidad_1;
+package Canciones;
 public class Cancion {
     private String titulo;
     private String autor;

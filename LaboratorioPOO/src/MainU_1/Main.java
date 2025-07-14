@@ -1,7 +1,10 @@
-package Unidad_1;
+package MainU_1;
 
+import Fecha.Fecha;
 import Figuras.Circulo;
 import Figuras.Rectangulo;
+import Objetos.Coche;
+import Persona.Persona;
 
 public class Main {
     public static void main(String[] args) {

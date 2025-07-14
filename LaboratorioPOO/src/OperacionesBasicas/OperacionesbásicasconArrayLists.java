@@ -1,5 +1,5 @@
-package Unidad_2;
-import Unidad_1.Persona;
+package OperacionesBasicas;
+import Persona.Persona;
 import java.util.ArrayList;
 import java.util.Scanner;
 

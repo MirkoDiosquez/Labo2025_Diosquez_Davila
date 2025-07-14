@@ -1,7 +1,5 @@
 package Computadoras;
 
-import Unidad_1.Persona;
-
 import java.util.ArrayList;
 
 public class Compra {

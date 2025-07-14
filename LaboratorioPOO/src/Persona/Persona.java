@@ -1,4 +1,4 @@
-package Unidad_1;
+package Persona;
 
 public abstract class Persona {
     private String nombre;

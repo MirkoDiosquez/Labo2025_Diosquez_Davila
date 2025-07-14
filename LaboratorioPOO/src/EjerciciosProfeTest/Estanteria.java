@@ -1,7 +1,7 @@
 package EjerciciosProfeTest;
 
 import java.util.ArrayList;
-import Unidad_1.Persona;
+import Persona.Persona;
 public class Estanteria {
     private int numeroEstanteria;
     private ArrayList<Pelicula> peliculas;

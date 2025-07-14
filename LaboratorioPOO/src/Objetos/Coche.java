@@ -1,4 +1,4 @@
-package Unidad_1;
+package Objetos;
 
 public class Coche {
     private String modelo;

@@ -1,6 +1,6 @@
 package Computadoras;
 
-import Unidad_1.Persona;
+import Persona.Persona;
 
 public class CPU extends Componente{
     private int tamaño;

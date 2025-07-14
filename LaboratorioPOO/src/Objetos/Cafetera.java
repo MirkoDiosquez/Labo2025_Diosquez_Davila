@@ -1,4 +1,4 @@
-package Unidad_1;
+package Objetos;
 
 public class Cafetera {
     private int cantidadMaxima;
