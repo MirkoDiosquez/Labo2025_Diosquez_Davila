@@ -1,3 +1,4 @@
+/*
 package Unidad2;
 
 import Unidad1.Persona;
@@ -18,7 +19,7 @@ public class Pelicula
         this.nombre = "";
         this.genero = "";
         this.duracion = 0;
-        this.director = new Persona("",0,"");
+        // this.director = new Persona("","","");
         this.actor = new ArrayList<>() ;
         this.idiomas = "";
     }
@@ -118,3 +119,4 @@ public class Pelicula
 
 
 }
+*/
