@@ -10,6 +10,9 @@ public abstract class Persona {
         this.edad=edad;
         this.direccion=direccion;
     }
+    public Persona(){
+
+    }
 
     public int getEdad() {
         return edad;
