@@ -2,11 +2,11 @@ package Poblacion;
 
 import java.util.HashMap;
 
-public class Lugar {
+public abstract class Lugar {
     private String nombre;
     private int codigo;
     private Coordenadas coordenadas;
-
+    abstract int cantPoblacion();
     public Lugar(String nombre, int codigo, Coordenadas coordenadas) {
         this.nombre = nombre;
         this.codigo = codigo;

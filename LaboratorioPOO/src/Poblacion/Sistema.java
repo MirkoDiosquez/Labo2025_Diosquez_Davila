@@ -1,31 +1,29 @@
 package Poblacion;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class Sistema {
-    private HashSet<Lugar> lugares = new HashSet<>();
+    private HashMap<Integer, Lugar> lugares = new HashMap<>();
 
-    public Sistema(HashSet<Lugar> lugares) {
+    public Sistema(HashMap<Integer, Lugar> lugares) {
         this.lugares = lugares;
     }
 
-    public HashSet<Lugar> getLugares() {
+    public HashMap<Integer, Lugar> getLugares() {
         return lugares;
     }
 
-    public void setLugares(HashSet<Lugar> lugares) {
+    public void setLugares(HashMap<Integer, Lugar> lugares) {
         this.lugares = lugares;
     }
-    public void addLugar(Lugar l){
-        for (Lugar ls: lugares){
-            if (ls.getCodigo() == l.getCodigo())
+
+    public int cantPoblacionCodigo(int codigo){
+        int cantidad=0;
+        for (Map.Entry<Integer, Lugar> valor: lugares.entrySet()){
+            if (valor.getKey() == codigo)cantidad=valor.getValue().cantPoblacion();
         }
-    }
-    public void removeLugar(Lugar l){
-        lugares.remove(l);
-    }
-    public void modifyL(Lugar lN, Lugar lR){
-        removeLugar(lR);
-        addLugar(lN);
+        return cantidad;
     }
 }
