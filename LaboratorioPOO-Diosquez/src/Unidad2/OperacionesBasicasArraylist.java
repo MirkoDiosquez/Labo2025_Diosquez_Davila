@@ -36,9 +36,9 @@ public class OperacionesBasicasArraylist
         System.out.println("-------------------------------");
 
         ArrayList<Persona> personas = new ArrayList<Persona>() ;
-        personas.add(new Persona("Tiago",31,"Condarco 5584")) ;
-        personas.add(new Persona("Mirko",33,"Kakita 2222")) ;
-        personas.add(new Persona("Teo",30,"patito 2875")) ;
+      //  personas.add(new Persona("Tiago",31,"Condarco 5584")) ;
+        //personas.add(new Persona("Mirko",33,"Kakita 2222")) ;
+        //personas.add(new Persona("Teo",30,"patito 2875")) ;
         System.out.println("Las personas con mas de 30 años son: ");
         for (Persona personita : personas)
         {

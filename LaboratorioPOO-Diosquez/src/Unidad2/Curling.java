@@ -49,7 +49,7 @@ public class Curling {
         Curling torneo3 = new Curling();
 
 
-        torneo.agregarEquipo(new Equipo("River", "Nuñez", "mañana"));
+        /*torneo.agregarEquipo(new Equipo("River", "Nuñez", "mañana"));
         torneo.agregarEquipo(new Equipo("Boca", "La Boca", "mañana"));
         torneo.agregarEquipo(new Equipo("Independiente", "Avellaneda", "mañana"));
         torneo.agregarEquipo(new Equipo("Racing", "Avellaneda", "mañana"));
@@ -69,7 +69,7 @@ public class Curling {
 
         torneo.fixture() ;
         torneo2.fixture() ;
-        torneo3.fixture() ;
+        torneo3.fixture() ;*/
 
     }
 }

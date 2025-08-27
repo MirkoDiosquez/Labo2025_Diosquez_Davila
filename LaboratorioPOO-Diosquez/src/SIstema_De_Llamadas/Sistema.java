@@ -40,7 +40,7 @@ public class Sistema {
             duraciones.add(aux);
         }
         int auxeeee= 0;
-        Empleado empaux= new Empleado();
+        /*Empleado empaux= new Empleado();
         for(int s= 0; s<duraciones.size(); s++){
             for(int l= s + 1; l<duraciones.size(); l++){
                 if (duraciones.get(l)>= duraciones.get(s)){
@@ -53,7 +53,7 @@ public class Sistema {
         }
         System.out.println("El ranking de las llamadas queda asi: ");
         System.out.println(rankingemp);
-        System.out.println(duraciones);
+        System.out.println(duraciones);*/
     }
 
     public void llamadasempl(Empleado emp){

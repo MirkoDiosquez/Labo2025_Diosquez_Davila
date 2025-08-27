@@ -24,7 +24,7 @@ public class Sistema
     {
         for(Paciente p : pacientes)
         {
-            if (p.getDni() == AuxDNi || p.getNON().keySet() == AuxFecha)
+            //if (p.getDni() == AuxDNi || p.getNON().keySet() == AuxFecha)
             {
 
             }
