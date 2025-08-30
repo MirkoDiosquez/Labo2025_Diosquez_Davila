@@ -1,15 +1,21 @@
 package Persona;
 
+import DireccionClase.Direccion;
+import Fecha.Fecha;
+
 public abstract class Persona {
     private String nombre;
     private int edad;
-    private String direccion;
+    private Direccion direccion;
+    private Fecha fNacimiento;
+    private int codigoPostal;
 
-    public Persona(String nombre, int edad, String direccion){
-        this.nombre=nombre;
-        this.edad=edad;
-        this.direccion=direccion;
+    public Persona(String nombre, int edad, Direccion direccion) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.direccion = direccion;
     }
+
     public Persona(){
 
     }
@@ -21,15 +27,15 @@ public abstract class Persona {
         return edad;
     }
 
-    public String getDireccion() {
-        return direccion;
-    }
-
     public String getNombre() {
         return nombre;
     }
 
-    public void setDireccion(String direccion) {
+    public Direccion getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(Direccion direccion) {
         this.direccion = direccion;
     }
 
