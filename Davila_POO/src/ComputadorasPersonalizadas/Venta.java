@@ -45,4 +45,35 @@ public class Venta {
     public void actualizarStock(){
         computadora.actualizarStock();
     }
+
+    public void confirmarCompra() throws sinStockException, ComponentePrincipalFaltanteException {
+        boolean tieneEntrada = false;
+        boolean tieneSalida = false;
+        if (computadora.getCpu() == null) {
+            throw new ComponentePrincipalFaltanteException("falta la cpu");
+        }
+        if (computadora.getCpu().getStock() <= 0) {
+            throw new sinStockException("no queda mas stock de cpu");
+        }
+        for (Periferico p : computadora.getPerifericos()) {
+            if (p instanceof Entrada) {
+                tieneEntrada = true;
+                if (p.getStock() <= 0) {
+                    throw new sinStockException("no hay stock del Entrada modelo " + p.getModelo());
+                }
+            }
+            if (p instanceof Salida) {
+                tieneSalida = true;
+                if (p.getStock() <= 0) {
+                    throw new sinStockException("no hay stock del Salida modelo " + p.getModelo());
+                }
+            }
+        }
+        if (!tieneEntrada) {
+            throw new ComponentePrincipalFaltanteException("no hay stock del dispositivo de entrada");
+        }
+        if (!tieneSalida) {
+            throw new ComponentePrincipalFaltanteException("no hay stock del salida de entrada");
+        }
+    }
 }
