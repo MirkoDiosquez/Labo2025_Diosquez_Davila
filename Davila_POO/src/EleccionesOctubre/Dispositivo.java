@@ -53,9 +53,5 @@ public class Dispositivo implements AccionesDispositivo{
         return estaPrendido;
     }
 
-    @Override
-    public boolean tieneCredito() {
-        tieneCredito=true;
-        return tieneCredito;
-    }
+
 }
