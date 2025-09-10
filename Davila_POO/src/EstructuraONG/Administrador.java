@@ -3,13 +3,14 @@ package EstructuraONG;
 import DireccionClase.Direccion;
 import Fecha.Fecha;
 
+import java.time.LocalDate;
+
 public class Administrador extends Asalariados{
     private Computadora computadora;
 
 
-
-    public Administrador(String nombre, int edad, Direccion direccion, boolean mensualidad, int sueldo, Banco banco, Fecha fechaCobro, Fecha.Fecha fechaDeAlta, Computadora computadora) {
-        super(nombre, edad, direccion, mensualidad, sueldo, banco, fechaCobro, fechaDeAlta);
+    public Administrador(String nombre, int edad, Direccion direccion, boolean mensualidad, LocalDate fechaIngreso, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, Computadora computadora) {
+        super(nombre, edad, direccion, mensualidad, fechaIngreso, sueldo, banco, fechaCobro, fechaDeAlta);
         this.computadora = computadora;
     }
 

@@ -1,4 +1,5 @@
 package Materia;
+import DireccionClase.Direccion;
 import Fecha.Fecha;
 import Persona.Persona;
 
@@ -11,11 +12,12 @@ public class AlumnoM extends Persona {
     private ArrayList<Double> notas = new ArrayList<Double>();
     private ArrayList<Materia> materias = new ArrayList<>();
 
-    public AlumnoM(String nombre, int edad, String direccion, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas, ArrayList <Materia> materias) {
-        super(nombre, edad, direccion);
+    public AlumnoM(String nombre, String apellido, Fecha fechaNacimiento, ArrayList<Double> notas, ArrayList<Materia> materias) {
+        this.nombre = nombre;
         this.apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
         this.notas = notas;
+        this.materias = materias;
     }
 
     public String getNombre() {

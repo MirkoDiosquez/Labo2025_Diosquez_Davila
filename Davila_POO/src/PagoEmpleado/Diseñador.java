@@ -1,5 +1,6 @@
 package PagoEmpleado;
 
+import DireccionClase.Direccion;
 import Persona.Persona;
 
 import java.util.HashSet;
@@ -9,7 +10,7 @@ public class Diseñador extends Persona {
     private HashSet<Proyecto> proyectos = new HashSet<>();
     private double sueldo;
 
-    public Diseñador(String nombre, int edad, String direccion, Tipo tipo, HashSet<Proyecto> proyectos, double sueldo) {
+    public Diseñador(String nombre, int edad, Direccion direccion, Tipo tipo, HashSet<Proyecto> proyectos, double sueldo) {
         super(nombre, edad, direccion);
         this.tipo = tipo;
         this.proyectos = proyectos;

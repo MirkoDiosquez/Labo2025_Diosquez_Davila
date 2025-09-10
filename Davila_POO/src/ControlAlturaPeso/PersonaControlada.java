@@ -1,5 +1,6 @@
 package ControlAlturaPeso;
 
+import DireccionClase.Direccion;
 import Persona.Persona;
 
 import java.time.LocalDate;
@@ -9,7 +10,7 @@ import java.util.Map;
 public class PersonaControlada extends Persona {
     private HashMap<LocalDate, Registro>  registros = new HashMap<>();
 
-    public PersonaControlada(String nombre, int edad, String direccion, HashMap<LocalDate, Registro> registros) {
+    public PersonaControlada(String nombre, int edad, Direccion direccion, HashMap<LocalDate, Registro> registros) {
         super(nombre, edad, direccion);
         this.registros = registros;
     }

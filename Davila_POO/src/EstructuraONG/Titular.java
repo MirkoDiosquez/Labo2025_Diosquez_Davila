@@ -7,8 +7,8 @@ import java.time.LocalDate;
 public class Titular extends Profesor{
     private Materia materia;
 
-    public Titular(String nombre, int edad, Direccion direccion, boolean mensualidad, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio, Materia materia) {
-        super(nombre, edad, direccion, mensualidad, sueldo, banco, fechaCobro, fechaDeAlta, barrio);
+    public Titular(String nombre, int edad, Direccion direccion, boolean mensualidad, LocalDate fechaIngreso, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio, Materia materia) {
+        super(nombre, edad, direccion, mensualidad, fechaIngreso, sueldo, banco, fechaCobro, fechaDeAlta, barrio);
         this.materia = materia;
     }
 

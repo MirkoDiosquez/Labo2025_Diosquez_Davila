@@ -7,8 +7,8 @@ import java.time.LocalDate;
 public  abstract class Profesor extends Asalariados{
     private ProfesorBarrio barrio;
 
-    public Profesor(String nombre, int edad, Direccion direccion, boolean mensualidad, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio) {
-        super(nombre, edad, direccion, mensualidad, sueldo, banco, fechaCobro, fechaDeAlta);
+    public Profesor(String nombre, int edad, Direccion direccion, boolean mensualidad, LocalDate fechaIngreso, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio) {
+        super(nombre, edad, direccion, mensualidad, fechaIngreso, sueldo, banco, fechaCobro, fechaDeAlta);
         this.barrio = barrio;
     }
 

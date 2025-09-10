@@ -1,5 +1,6 @@
 package curling;
 
+import DireccionClase.Direccion;
 import Persona.Persona;
 
 import java.time.LocalDate;
@@ -11,7 +12,7 @@ public class Jugador extends Persona {
 
 
     public Jugador() {
-        super("tiagp", 13, "dada");
+        super("tiagp", 13, new Direccion("Helguera", 23));
         this.fechaNacimiento = fechaNacimiento;
         this.numeroCamiseta = numeroCamiseta;
         this.capitan = capitan;

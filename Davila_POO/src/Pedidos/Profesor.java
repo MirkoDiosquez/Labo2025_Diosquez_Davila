@@ -1,11 +1,12 @@
 package Pedidos;
 
+import DireccionClase.Direccion;
 import Persona.Persona;
 
 public class Profesor extends Persona {
     private double porcentajeDescuento;
 
-    public Profesor(String nombre, int edad, String direccion, double porcentajeDescuento) {
+    public Profesor(String nombre, int edad, Direccion direccion, double porcentajeDescuento) {
         super(nombre, edad, direccion);
         this.porcentajeDescuento = porcentajeDescuento;
     }

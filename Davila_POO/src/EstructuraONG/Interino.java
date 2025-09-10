@@ -10,8 +10,8 @@ import java.util.Map;
 public class Interino extends Profesor{
     private HashMap<Materia, Integer> infoMaterias;
 
-    public Interino(String nombre, int edad, Direccion direccion, boolean mensualidad, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio, HashMap<Materia, Integer> infoMaterias) {
-        super(nombre, edad, direccion, mensualidad, sueldo, banco, fechaCobro, fechaDeAlta, barrio);
+    public Interino(String nombre, int edad, Direccion direccion, boolean mensualidad, LocalDate fechaIngreso, int sueldo, Banco banco, LocalDate fechaCobro, LocalDate fechaDeAlta, ProfesorBarrio barrio, HashMap<Materia, Integer> infoMaterias) {
+        super(nombre, edad, direccion, mensualidad, fechaIngreso, sueldo, banco, fechaCobro, fechaDeAlta, barrio);
         this.infoMaterias = infoMaterias;
     }
 

@@ -1,17 +1,21 @@
 package duck.choice;
 
-public class Clothing  {
+public class Clothing implements Comparable<Clothing>{
     private String description;
     private double price;
-    private String size="M";
-    public final static double MIN_PRICE = 10.0;
-    public final static double TAX_RATE  = .2;
-    public Clothing(double price, String description, String size) {
-        this.price = price;
+    private String size;
+    public final static double MIN_PRICE = 10;
+    public final static double TAX = 0.2;
+
+    public Clothing(String description, double price, String size) {
         this.description = description;
+        this.price = price;
         this.size = size;
     }
-
+    public static double getMIN_PRICE() {
+        return MIN_PRICE;
+    }
+    public static double getTAX() { return TAX; }
     public String getDescription() {
         return description;
     }
@@ -19,10 +23,19 @@ public class Clothing  {
         this.description = description;
     }
     public double getPrice() {
-        return price + (price * TAX_RATE);
+        return price * (1 + TAX);
     }
     public void setPrice(double price) {
-        this.price = (price > MIN_PRICE) ? price:MIN_PRICE;
+        if (price >= MIN_PRICE) {
+            this.price = price;
+        }
+        else{
+            System.out.println("Precio menor a 10");
+        }
+    }
+    @Override
+    public String toString(){
+        return (this.description + ", " + this.size + ", " + this.price);
     }
     public String getSize() {
         return size;
@@ -30,11 +43,9 @@ public class Clothing  {
     public void setSize(String size) {
         this.size = size;
     }
+
     @Override
-    public String toString(){
-        return getDescription() + ", " + getSize() + ", " + getPrice();
-    }
-    public int compareTo(Clothing  c ) {
-            return this.description.compareTo(c.getDescription());
+    public int compareTo(Clothing c) {
+        return this.description.compareTo(c.getDescription());
     }
 }

@@ -2,13 +2,16 @@ package EstructuraONG;
 
 import DireccionClase.Direccion;
 
+import java.time.LocalDate;
+
 public class VoluntarioMiebro extends Participante{
     private int puntaje;
     private MiembroBarrios barrio;
 
-    public VoluntarioMiebro(String nombre, int edad, Direccion direccion, boolean mensualidad, int puntaje) {
-        super(nombre, edad, direccion, mensualidad);
+    public VoluntarioMiebro(String nombre, int edad, Direccion direccion, boolean mensualidad, LocalDate fechaIngreso, int puntaje, MiembroBarrios barrio) {
+        super(nombre, edad, direccion, mensualidad, fechaIngreso);
         this.puntaje = puntaje;
+        this.barrio = barrio;
     }
 
     public int getPuntaje() {

@@ -1,5 +1,6 @@
 package Vacunatorio;
 
+import DireccionClase.Direccion;
 import Persona.Persona;
 
 import java.util.HashSet;
@@ -10,7 +11,7 @@ public class Ciudadano extends Persona {
     private String mail;
     private HashSet<Vacuna> vacunasCiudadano= new HashSet<>();
 
-    public Ciudadano(String nombre, int edad, String direccion, int dni, Provincia provincia, String mail, HashSet<Vacuna> vacunasCiudadano) {
+    public Ciudadano(String nombre, int edad, Direccion direccion, int dni, Provincia provincia, String mail, HashSet<Vacuna> vacunasCiudadano) {
         super(nombre, edad, direccion);
         this.dni = dni;
         this.provincia = provincia;
