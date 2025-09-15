@@ -2,20 +2,20 @@ package CampeonatoArcoFlecha;
 
 import java.util.HashSet;
 
-public class BeneficioComida extends Beneficio implements Acumulable {
-    private HashSet<String> gaseosas;
+public class BeneficioComida extends Beneficio implements AccionAcumulable {
+    private HashSet<String> comidas;
 
-    public BeneficioComida(String nombre, Usuario user, HashSet<String> gaseosas) {
+    public BeneficioComida(String nombre, Cliente user, HashSet<String> comidas) {
         super(nombre, user);
-        this.gaseosas = gaseosas;
+        this.comidas = comidas;
     }
 
-    public HashSet<String> getGaseosas() {
-        return gaseosas;
+    public HashSet<String> getComidas() {
+        return comidas;
     }
 
-    public void setGaseosas(HashSet<String> gaseosas) {
-        this.gaseosas = gaseosas;
+    public void setComidas(HashSet<String> comidas) {
+        this.comidas = comidas;
     }
 
     @Override

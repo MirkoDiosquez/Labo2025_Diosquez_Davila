@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class BeneficioTrago extends Beneficio{
     private HashSet<String>trago;
 
-    public BeneficioTrago(String nombre, Usuario user, HashSet<String> trago) {
+    public BeneficioTrago(String nombre, Cliente user, HashSet<String> trago) {
         super(nombre, user);
         this.trago = trago;
     }

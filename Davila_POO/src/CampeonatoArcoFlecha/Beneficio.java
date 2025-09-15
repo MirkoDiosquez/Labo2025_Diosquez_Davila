@@ -2,9 +2,9 @@ package CampeonatoArcoFlecha;
 
 public abstract class Beneficio {
     private String nombre;
-    private Usuario user;
+    private Cliente user;
 
-    public Beneficio(String nombre, Usuario user) {
+    public Beneficio(String nombre, Cliente user) {
         this.nombre = nombre;
         this.user = user;
     }
@@ -17,11 +17,11 @@ public abstract class Beneficio {
         this.nombre = nombre;
     }
 
-    public Usuario getUser() {
+    public Cliente getUser() {
         return user;
     }
 
-    public void setUser(Usuario user) {
+    public void setUser(Cliente user) {
         this.user = user;
     }
 }

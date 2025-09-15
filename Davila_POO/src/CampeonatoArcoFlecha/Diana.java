@@ -6,10 +6,10 @@ import java.util.Map;
 public abstract class Diana {
     private String nombre;
     private Nivel dificultad;
-    private HashMap<Integer,Colores> puntajes;
+    private HashMap<Integer, Color> puntajes;
 
 
-    public Diana(String nombre, Nivel dificultad, HashMap<Integer,Colores> puntajes) {
+    public Diana(String nombre, Nivel dificultad, HashMap<Integer, Color> puntajes) {
         this.nombre = nombre;
         this.dificultad = dificultad;
         this.puntajes = puntajes;
@@ -32,22 +32,22 @@ public abstract class Diana {
         this.dificultad = dificultad;
     }
 
-    public HashMap<Integer, Colores> getPuntajes() {
+    public HashMap<Integer, Color> getPuntajes() {
         return puntajes;
     }
 
-    public void setPuntajes(HashMap<Integer, Colores> puntajes) {
+    public void setPuntajes(HashMap<Integer, Color> puntajes) {
         this.puntajes = puntajes;
     }
 
     public abstract double calcularArea();
 
 
-     public double calcularPuntos(){
-         double TotalPuntos = 0;
-         for (Map.Entry<Integer,Colores> d: puntajes.entrySet()){
-             TotalPuntos = TotalPuntos + (d.getKey()*d.getValue().getPuntos());
+     public double calcularPuntosDiana(){
+         double cantidadPuntos = 0;
+         for (Map.Entry<Integer, Color> valores: puntajes.entrySet()){
+             cantidadPuntos = valores.getKey()*valores.getValue().getPuntos();
          }
-         return TotalPuntos;
+         return cantidadPuntos;
      }
 }
