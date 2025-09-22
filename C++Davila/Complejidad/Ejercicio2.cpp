@@ -8,6 +8,7 @@ tiene tiempo de ejecución perteneciente a O(1).
 #include <vector>
 using namespace std ;
 vector <int> vec ;
+
 int i ;
 void f1 (vector &vec) {
     i = vec.size() / 2; // O(1)
@@ -17,3 +18,11 @@ void f1 (vector &vec) {
     i - -;
     }
     }
+    void f2 (vector &vec) {
+        i = 0;// O(1)
+        while ( i < 10000){// O(1)
+        vec [ vec.size() / 2 - i ] = i ;
+        vec [ vec.size() / 2 + i ] = i ;
+        i ++;
+        }//O(n)
+        }
