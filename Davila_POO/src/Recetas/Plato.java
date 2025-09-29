@@ -1,11 +1,16 @@
 package Recetas;
 
+import MasterChef.Ingrediente;
+
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public abstract class Plato {
     private String nombrePlato;
     private Dificultad dificultad;
     private  ArrayList<String> pasos;
+    private HashSet<Ingrediente> ingredientes;
+    private int tiempo;
 
     abstract void mostrar();
     abstract boolean esDeltipo(Plato p);
@@ -13,6 +18,22 @@ public abstract class Plato {
         this.nombrePlato = nombrePlato;
         this.dificultad = dificultad;
         this.pasos = pasos;
+    }
+
+    public int getTiempo() {
+        return tiempo;
+    }
+
+    public void setTiempo(int tiempo) {
+        this.tiempo = tiempo;
+    }
+
+    public HashSet<Ingrediente> getIngredientes() {
+        return ingredientes;
+    }
+
+    public void setIngredientes(HashSet<Ingrediente> ingredientes) {
+        this.ingredientes = ingredientes;
     }
 
     public String getNombrePlato() {

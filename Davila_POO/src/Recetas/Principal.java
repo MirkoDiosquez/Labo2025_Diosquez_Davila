@@ -3,7 +3,7 @@ package Recetas;
 import java.time.Duration;
 import java.util.ArrayList;
 
-public class Principal extends Plato{
+public class Principal extends Plato implements tipoPlato{
     private Duration tiempoCoccion;
     private int numeroComensales;
 
@@ -35,5 +35,8 @@ public class Principal extends Plato{
     public boolean esDeltipo(Plato p){
         if (p instanceof Principal)return true;
         else return false;
+    }
+    public String tipo(){
+        return "Principal";
     }
 }

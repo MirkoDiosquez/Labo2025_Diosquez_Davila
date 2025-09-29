@@ -2,7 +2,7 @@ package Recetas;
 
 import java.util.ArrayList;
 
-public class Entrada extends Plato{
+public class Entrada extends Plato implements tipoPlato{
     private Estado estado;
 
     public Entrada(String nombrePlato, Dificultad dificultad, Estado estado) {
@@ -35,5 +35,8 @@ public class Entrada extends Plato{
     public boolean esDeltipo(Plato p){
         if (p instanceof Entrada)return true;
         else return false;
+    }
+    public String tipo(){
+        return "Entrada";
     }
 }

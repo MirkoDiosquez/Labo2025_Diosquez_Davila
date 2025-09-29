@@ -2,7 +2,7 @@ package Recetas;
 
 import java.util.ArrayList;
 
-public class Postre extends Plato {
+public class Postre extends Plato implements tipoPlato {
     private int temperaturaPreparacion;
     private boolean diabeticos;
 
@@ -35,5 +35,8 @@ public class Postre extends Plato {
     public boolean esDeltipo(Plato p){
         if (p instanceof Postre)return true;
         else return false;
+    }
+    public String tipo(){
+        return "Postre";
     }
 }

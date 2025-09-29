@@ -15,7 +15,7 @@ int mesetaMasLarga (vector &v) {
     }
     return maxMeseta ; //O(1)
     }
-    // O(3) + O(n) * (O(2)+ * O(n) + O(2)*(O(1)) = O(n)* O (n)= O(n^2) 
+    // O(3) + O(n) + (O(2)+ * O(n) + O(2)*(O(1)) = O(n)+ O (n) = O(n) 
 
     int maxMeseta(vector &v){
         int maxMeseta=0;
